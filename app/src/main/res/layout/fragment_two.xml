@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+  <Button
+      android:text="persegi"
+      android:textSize="35px"
+      android:layout_marginLeft="10px"
+      android:layout_marginTop="20px"
+      android:layout_width="350px"
+      android:layout_height="150px" />
+        <Button
+            android:text="persegi panjang"
+            android:textSize="35px"
+            android:layout_width="350px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+       android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="35px"
+            android:text="segitiga"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="20px"
+            android:layout_width="350px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
